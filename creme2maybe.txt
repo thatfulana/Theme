@@ -1469,10 +1469,10 @@ body::after {
 }
 
 #app-mount .spoilerText-27bIiA {							/* messageelement		spoiler								*/
-	background-color: rgba(var(--transparencycolor), .2);
+	background-color: rgba(233,219,213,255);
 }
 #app-mount .spoilerText-27bIiA.hidden-3B-Rum {				/* messageelement		hiddenspoiler						*/
-	background-color: rgba(var(--transparencycolor), .6);
+	background-color: rgba(199,170,137,255));
 }
 
 .icon-JRJzJz[style*="/assets/5da4cdab01d4d89c593c48c62ae0d937.svg"] {		/* systemmessage			pinicon									*/
