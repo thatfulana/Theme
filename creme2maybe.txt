@@ -3,7 +3,7 @@
 
 :root {
 	--transparencycolor:			209,185,167;
-	--transparencyalpha:			0.6;
+	--transparencyalpha:			0.06;
 	--messagetransparency:			0.0;
 	--usechatbubbles: 				calc(var(--messagetransparency) / (var(--messagetransparency) + 0.00000000000000000000001));
 	--guildchanneltransparency:		0.42;
@@ -1865,7 +1865,7 @@ body::after {
 	background-color: rgba(var(--transparencycolor), .3);
 }
 .video-eAcneW {												/* call					video							*/
-	background-color: transparent;
+	background-color: rgba(244,234,233,255);
 }
 .tile-2TcwiO,												/* call					user video voicechannel			*/
 .tile-2Dr6M1 {												/* call					user video dm					*/
@@ -4667,7 +4667,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 	display: block !important;
 }
 .profileColors-3Y0XaR {										/* popout new			profilecolors						*/
-    --profile-body-background-color: rgba(0,0,0,.4) !important;
+    --profile-body-background-color: rgba(199,170,137,255,.4) !important;
     --profile-body-divider-color: var(--background-modifier-accent) !important;
     --profile-body-divider-opacity: 1 !important;
 }
@@ -5494,7 +5494,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 
 #app-mount .everyonePopout-nEbJY3 {							/* popout				wrapper								*/
 	background-color: transparent;
-	box-shadow: 0 0 0 1px rgba(var(--transparencycolor), .3), 0 2px 10px 0 rgba(var(--transparencycolor), .3);
+	box-shadow: 0 0 0 1px rgba(var(199,170,137,255), .3), 0 2px 10px 0 rgba(var(199,170,137,255), .3);
 	border: none;
 	border-radius: 3px;
 	overflow: hidden;
@@ -5518,7 +5518,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 	background-attachment: fixed;
 }
 .everyonePopout-nEbJY3::after {
-	background-color: rgba(var(--transparencycolor), calc(var(--transparencyalpha) + 0.1));
+	background-color: rgba(199,170,137,255), calc(var(--transparencyalpha) + 0.1));
 	backdrop-filter: blur(var(--popoutblur));
 }
 #app-mount .header-3_S6dz {
@@ -5537,7 +5537,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 	color: var(--header-secondary);
 }
 #app-mount .footer-2aTx0s {
-	background-color: rgba(var(--transparencycolor), .2);
+	background-color: rgba(199,170,137,255), .2);
 	color: var(--text-muted);
 }
 #app-mount .footer-2aTx0s strong {
