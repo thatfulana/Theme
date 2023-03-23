@@ -26,7 +26,7 @@
 	--textbrighter: 				247,228,217;
 	--textbright: 					183,147,120;
 	--textdark: 					159,119,93;
-	--textdarker: 					31,19,5;
+	--textdarker: 					169,141,108;
 	--textdarkest: 					0,0,0;
 	
 	--background:					url(https://i.imgur.com/lYZSWe1.png);
