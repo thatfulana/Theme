@@ -2,8 +2,8 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
 
 :root {
-	--transparencycolor:			209,185,167;
-	--transparencyalpha:			0.06;
+	--transparencycolor:			12,4,1;
+	--transparencyalpha:			0.24;
 	--messagetransparency:			0.0;
 	--usechatbubbles: 				calc(var(--messagetransparency) / (var(--messagetransparency) + 0.00000000000000000000001));
 	--guildchanneltransparency:		0.42;
@@ -13,7 +13,7 @@
 	--font:							"gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	--textshadow:					rgb(255,255,255,0);
 	
-	--accentcolor:					199,170,137;
+	--accentcolor:					199,172,140;
 	--accentcolor2:					var(--accentcolor);
 	--mentioncolor:					var(--accentcolor);
 	--linkcolor:					var(--accentcolor);
@@ -22,24 +22,24 @@
 	--warningcolor: 				250,166,26;
 	--dangercolor: 					237,66,69;
 	
-	--textbrightest: 				69,52,40;
-	--textbrighter: 				47,40,38;
-	--textbright: 					 101,72,50;
-	--textdark: 					141,104,80;
-	--textdarker: 					195,171,142;
-	--textdarkest: 					222,212,200;
+	--textbrightest: 				225,210,199;
+	--textbrighter: 				247,228,217;
+	--textbright: 					183,147,120;
+	--textdark: 					159,119,93;
+	--textdarker: 					31,19,5;
+	--textdarkest: 					0,0,0;
 	
-	--background:					url(https://www.colorhexa.com/fbf7f4.png);
+	--background:					url(https://i.imgur.com/lYZSWe1.png);
 	--backgroundposition:			center;
 	--backgroundsize:				cover;
 	--backgroundblur:				unset;
 	
-	--popout:						url(https://www.colorhexa.com/fbf7f4.png);
+	--popout:						url(https://www.colorhexa.com/405a69.png);
 	--popoutposition:				var(--backgroundposition);
 	--popoutsize:					var(--backgroundsize);
-	--popoutblur:					25px;
+	--popoutblur:					unset;
 	
-	--backdrop:						rgba(123,79,51,0.41);
+	--backdrop:						rgba(0,0,0,100);
 	--backdropposition:				center;
 	--backdropsize:					var(--background-size);
 	--backdropblur:					unset;
